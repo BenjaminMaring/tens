@@ -4,6 +4,6 @@ export default function Box(props) {
 
 
     return (
-        <button className={props.isLocked ? "box box-locked" : "box box-unlocked"} onClick={props.toggleLock}>{props.num}</button>
+        <button className={props.isLocked ? "box green" : "box box-unlocked"} onClick={props.toggleLock}>{props.num}</button>
     )
 }

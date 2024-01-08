@@ -16,29 +16,31 @@
   font-size: 2rem;
 }
 
-.box-locked {
-  background-color: green;
-}
-
 .btn {
   min-width: 200px;
   height: 100px;
   font-size: 4rem;
   margin: 20px;
-  padding: 10px;
+  padding:0 10px 10px 10px;
+  padding-top: 0px;
 }
 
-.roll {
+.red {
   background-color: red;
 }
 
-.submit {
+.green {
   background-color: green;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
+}
+
+.stats-wrapper {
+  display: flex;
+  
 }
 
 
